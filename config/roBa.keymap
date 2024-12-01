@@ -83,6 +83,8 @@
 &none             &none             &kp SQT          &kp LS(INTERNATIONAL_3)  &kp INTERNATIONAL_3   &none     &none   &kp LS(NUMBER_3)     &kp LEFT_BRACKET         &none      &none      &none
 &trans            &trans            &trans           &trans                   &trans                &trans    &trans  &trans                                                              &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         NumAndBracket {
@@ -112,6 +114,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                   &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         Layer5 {
