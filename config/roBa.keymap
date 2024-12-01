@@ -78,10 +78,10 @@
 
         Symbol {
             bindings = <
-&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp QUESTION  &kp TILDE                        &kp INT_YEN       &kp LS(INT_YEN)   &mkp MCLK  &none      &kp LS(N5)
-&kp AMPERSAND     &kp SEMICOLON      &kp DOLLAR       &none         &kp GRAVE      &none     &none   &kp LS(EQUAL)     &mkp LCLK         &none      &mkp RCLK  &none
-&none             &none              &kp COLON        &kp PIPE      &kp BACKSLASH  &none     &none   &kp LS(NUMBER_3)  &kp LEFT_BRACKET  &none      &none      &none
-&trans            &trans             &trans           &trans        &trans         &trans    &trans  &trans                                                    &trans
+&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp QUESTION  &kp TILDE                        &kp NON_US_BSLH   &kp LS(INTERNATIONAL_1)  &mkp MCLK  &none      &kp LS(N5)
+&kp AMPERSAND     &kp SEMICOLON      &kp DOLLAR       &none         &kp GRAVE      &none     &none   &kp EQUAL         &mkp LCLK                &none      &mkp RCLK  &none
+&none             &none              &kp COLON        &kp PIPE      &kp BACKSLASH  &none     &none   &kp LS(NUMBER_3)  &kp LEFT_BRACKET         &none      &none      &none
+&trans            &trans             &trans           &trans        &trans         &trans    &trans  &trans                                                           &trans
             >;
         };
 
