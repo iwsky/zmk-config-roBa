@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: kumamuk-git
+    - name: iwsky
       url-base: https://github.com/iwsky
   projects:
     - name: zmk
