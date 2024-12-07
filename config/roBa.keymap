@@ -43,14 +43,6 @@
             bindings = <&kp LS(RIGHT_BRACKET) &kp LS(NON_US_HASH) &kp LEFT>;
             label = "PAIRCURLYBRACKETS";
         };
-
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>, <&macro_tap>;
-
-            label = "NEW_MACRO";
-        };
     };
 
     behaviors {
