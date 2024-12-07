@@ -13,14 +13,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        DeleteKey {
-            bindings = <&kp DELETE>;
-            key-positions = <37 40>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
