@@ -22,6 +22,20 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        PairSquareBrackets: PairSquareBrackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp LBKT &kp LBRC>;
+            label = "PAIRSQUAREBRACKETS";
+        };
+
+        PairSquareBracketsMoveCenter: PairSquareBracketsMoveCenter {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&PairSquareBrackets &kp LEFT>;
+            label = "PAIRSQUAREBRACKETSMOVECENTER";
+        };
     };
 
     behaviors {
@@ -102,7 +116,7 @@
 
         NumAndBracket {
             bindings = <
-&none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS                     &kp RIGHT_BRACKET      &kp NON_US_HASH      &none          &none           &none
+&none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS                     &kp RIGHT_BRACKET      &kp NON_US_HASH      &none          &none           &PairSquareBracketsMoveCenter
 &kp KP_ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS    &trans    &trans  &kp LS(N8)             &kp LS(N9)           &none          &none           &none
 &kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)  &trans    &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp LS(COMMA)  &kp LS(PERIOD)  &none
 &none            &kp KP_NUMBER_0  &kp KP_DOT       &trans           &trans         &trans    &trans  &trans                                                                     &trans
