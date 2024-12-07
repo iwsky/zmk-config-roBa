@@ -26,7 +26,7 @@
         PairSquareBrackets: PairSquareBrackets {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp LBKT &kp LBRC>;
+            bindings = <&kp LBKT &kp LBRC>;
             label = "PAIRSQUAREBRACKETS";
         };
 
