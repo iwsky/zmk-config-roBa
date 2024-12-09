@@ -141,10 +141,10 @@
 
         NumAndBracket {
             bindings = <
-&none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS                     &kp RIGHT_BRACKET      &kp NON_US_HASH      &none          &none           &PairSquareBrackets
-&kp KP_ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS    &trans    &trans  &kp LS(N8)             &kp LS(N9)           &none          &none           &PairParentheses
-&kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)  &trans    &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp LS(COMMA)  &kp LS(PERIOD)  &PairCurlyBrackets
-&none            &kp KP_NUMBER_0  &kp KP_DOT       &trans           &trans         &trans    &trans  &trans                                                                     &trans
+&none        &kp N7        &kp N8        &kp N9        &kp MINUS                        &kp RIGHT_BRACKET      &kp NON_US_HASH      &none          &none           &PairSquareBrackets
+&kp LS(SQT)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(SEMI)   &trans    &trans  &kp LS(N8)             &kp LS(N9)           &none          &none           &PairParentheses
+&kp SLASH    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)  &trans    &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp LS(COMMA)  &kp LS(PERIOD)  &PairCurlyBrackets
+&none        &kp N0        &kp DOT       &trans        &trans         &trans    &trans  &trans                                                                     &trans
             >;
         };
 
