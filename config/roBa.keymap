@@ -31,11 +31,6 @@
             bindings = <&mo 5>;
             key-positions = <30 19>;
         };
-
-        MiddleClick {
-            bindings = <&mkp MCLK>;
-            key-positions = <7 18>;
-        };
     };
 
     macros {
